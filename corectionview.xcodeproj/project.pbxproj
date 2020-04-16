@@ -24,6 +24,8 @@
 		5F0890542446F46300027094 /* TopMainCollectionViewSecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F0890522446F46300027094 /* TopMainCollectionViewSecondCell.xib */; };
 		5F0890582446FC9E00027094 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0890562446FC9E00027094 /* ThirdViewController.swift */; };
 		5F0890592446FC9E00027094 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F0890572446FC9E00027094 /* ThirdViewController.xib */; };
+		5F0890802448308B00027094 /* TopMainCollectionViewThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F08907E2448308B00027094 /* TopMainCollectionViewThirdCell.swift */; };
+		5F0890812448308B00027094 /* TopMainCollectionViewThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F08907F2448308B00027094 /* TopMainCollectionViewThirdCell.xib */; };
 		9317204B7B82C6867EEE0730 /* Pods_corectionview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A60A66E3720EA193D862B4 /* Pods_corectionview.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		5F0890522446F46300027094 /* TopMainCollectionViewSecondCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainCollectionViewSecondCell.xib; sourceTree = "<group>"; };
 		5F0890562446FC9E00027094 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		5F0890572446FC9E00027094 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		5F08907E2448308B00027094 /* TopMainCollectionViewThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMainCollectionViewThirdCell.swift; sourceTree = "<group>"; };
+		5F08907F2448308B00027094 /* TopMainCollectionViewThirdCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMainCollectionViewThirdCell.xib; sourceTree = "<group>"; };
 		89C9837A2F7024021884818E /* Pods-corectionview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-corectionview.release.xcconfig"; path = "Target Support Files/Pods-corectionview/Pods-corectionview.release.xcconfig"; sourceTree = "<group>"; };
 		D7A60A66E3720EA193D862B4 /* Pods_corectionview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_corectionview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,6 +113,8 @@
 				5F08901C24469A4A00027094 /* TopMainCollectionViewCell.xib */,
 				5F0890512446F46300027094 /* TopMainCollectionViewSecondCell.swift */,
 				5F0890522446F46300027094 /* TopMainCollectionViewSecondCell.xib */,
+				5F08907E2448308B00027094 /* TopMainCollectionViewThirdCell.swift */,
+				5F08907F2448308B00027094 /* TopMainCollectionViewThirdCell.xib */,
 			);
 			path = Top;
 			sourceTree = "<group>";
@@ -211,6 +217,7 @@
 				5F08901A2446993800027094 /* TopMainView.xib in Resources */,
 				5F089016244698F900027094 /* TopViewController.xib in Resources */,
 				5F08900B2446982300027094 /* LaunchScreen.storyboard in Resources */,
+				5F0890812448308B00027094 /* TopMainCollectionViewThirdCell.xib in Resources */,
 				5F08901E24469A4A00027094 /* TopMainCollectionViewCell.xib in Resources */,
 				5F0890502446E2A600027094 /* NextViewController.xib in Resources */,
 				5F0890082446982300027094 /* Assets.xcassets in Resources */,
@@ -270,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F08901D24469A4A00027094 /* TopMainCollectionViewCell.swift in Sources */,
+				5F0890802448308B00027094 /* TopMainCollectionViewThirdCell.swift in Sources */,
 				5F08904F2446E2A600027094 /* NextViewController.swift in Sources */,
 				5F089015244698F900027094 /* TopViewController.swift in Sources */,
 				5F088FFF2446981F00027094 /* AppDelegate.swift in Sources */,

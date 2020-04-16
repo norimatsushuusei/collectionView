@@ -29,6 +29,7 @@ extension TopMainView {
         
         loadCollectionViewCellFromXib(collectionView: collectionView, cellName: "TopMainCollectionViewCell")
         loadCollectionViewCellFromXib(collectionView: collectionView, cellName: "TopMainCollectionViewSecondCell")
+        loadCollectionViewCellFromXib(collectionView: collectionView, cellName: "TopMainCollectionViewThirdCell")
     }
 }
 // MARK: - Protocol
@@ -41,11 +42,15 @@ extension TopMainView :UICollectionViewDataSource{
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TopMainCollectionViewCell", for: indexPath)as?TopMainCollectionViewCell else {return UICollectionViewCell()}
         
         guard let secondCell = collectionView.dequeueReusableCell(withReuseIdentifier: "TopMainCollectionViewSecondCell", for: indexPath)as? TopMainCollectionViewSecondCell else {return UICollectionViewCell()}
+        
+        guard let thirdCell = collectionView.dequeueReusableCell(withReuseIdentifier: "TopMainCollectionViewThirdCell", for: indexPath)as? TopMainCollectionViewThirdCell else {return UICollectionViewCell()}
         switch indexPath.row {
         case 0:
             return cell
         case 1:
             return secondCell
+        case 2:
+            return thirdCell
         default:
             return cell
         }
