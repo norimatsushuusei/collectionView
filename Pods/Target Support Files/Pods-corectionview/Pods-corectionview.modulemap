@@ -1,0 +1,6 @@
+framework module Pods_corectionview {
+  umbrella header "Pods-corectionview-umbrella.h"
+
+  export *
+  module * { export * }
+}
